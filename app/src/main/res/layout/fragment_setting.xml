@@ -4,11 +4,13 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
+    <include layout="@layout/layout_setting_top"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="石头"
+        android:text="豌豆"
         android:textSize="30sp"/>
 
 </LinearLayout>
