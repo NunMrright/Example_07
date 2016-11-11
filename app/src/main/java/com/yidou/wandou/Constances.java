@@ -6,7 +6,8 @@ package com.yidou.wandou;
 
 public class Constances
 {
-    public static final String KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxx";
+    //聚合数据，apikey申请地址：https://www.juhe.cn/docs/api/id/235
+    public static final String KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
     public static final String NEWS_URL = "http://v.juhe.cn/toutiao/";
     public static final String TOP = "top";
     public static final String SHI = "shishang";

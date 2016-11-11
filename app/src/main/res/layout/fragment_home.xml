@@ -4,6 +4,8 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
+    <include layout="@layout/layout_home_top"/>
+
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/fragment_home_swipe"
         android:layout_width="match_parent"

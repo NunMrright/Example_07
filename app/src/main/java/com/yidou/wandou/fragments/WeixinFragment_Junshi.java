@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.github.library.BaseRecyclerAdapter;
 import com.github.library.BaseViewHolder;
+import com.github.library.animation.AnimationType;
 import com.squareup.picasso.Picasso;
 import com.yidou.wandou.Constances;
 import com.yidou.wandou.R;
@@ -85,6 +86,7 @@ public class WeixinFragment_Junshi extends Fragment implements SwipeRefreshLayou
                 });
             }
         };
+        mAdapter.openLoadAnimation(AnimationType.SLIDE_TOP);//ok
         mRecyclerView.setAdapter(mAdapter);
     }
 

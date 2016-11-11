@@ -14,6 +14,7 @@ import android.widget.ImageView;
 
 import com.github.library.BaseRecyclerAdapter;
 import com.github.library.BaseViewHolder;
+import com.github.library.animation.AnimationType;
 import com.squareup.picasso.Picasso;
 import com.yidou.wandou.Constances;
 import com.yidou.wandou.R;
@@ -70,6 +71,7 @@ public class HomeFragment extends Fragment implements SwipeRefreshLayout.OnRefre
                 Picasso.with(getActivity()).load(Constances.IMGS + item.getImg()).fit().into(images);
             }
         };
+        mAdapter.openLoadAnimation(AnimationType.SLIDE_LEFT);//ok
         mRecyclerView.setAdapter(mAdapter);
     }
 

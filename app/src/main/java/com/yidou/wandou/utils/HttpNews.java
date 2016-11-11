@@ -17,7 +17,7 @@ public interface HttpNews
     @GET("index")
     Observable<News> getNews(@Query("type") String type, @Query("key") String key);
 
-    @Headers("apikey:xxxxxxxxxxxxxxxxxxxxx")
+    @Headers("apikey:百度apistore key")//申请地址：http://apistore.baidu.com/apiworks/servicedetail/987.html
     @GET("list")
     Observable<Pictures> getPictures(@Query("id") String id, @Query("page") String page, @Query("rows") String rows);
 }
